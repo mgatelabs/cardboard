@@ -16,6 +16,7 @@
 package com.google.cardboard.sdk;
 
 import android.Manifest;
+import android.app.Activity;
 import android.app.Dialog;
 import android.content.Context;
 import android.content.Intent;
@@ -48,7 +49,7 @@ import java.io.IOException;
  * Manages the QR code capture activity. It scans permanently with the camera until it finds a valid
  * QR code.
  */
-public class QrCodeCaptureActivity extends AppCompatActivity
+public class QrCodeCaptureActivity extends Activity
     implements QrCodeTracker.Listener, QrCodeContentProcessor.Listener {
   private static final String TAG = QrCodeCaptureActivity.class.getSimpleName();
 

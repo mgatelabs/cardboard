@@ -15,7 +15,7 @@
         <activity
             android:name="com.google.cardboard.sdk.QrCodeCaptureActivity"
             android:label="@string/title_activity_qr_code_capture"
-            android:theme="@style/Theme.AppCompat.NoActionBar"
+            android:theme="@style/Theme.MaterialComponents.NoActionBar"
             android:exported="false"/>
 
         <!-- Activity whose sole purpose is to update Cardboard device params when a Cardboard V1
